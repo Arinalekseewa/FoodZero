@@ -19,16 +19,22 @@ ul {
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
 button {
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.icon {
+  stroke: #FFFFFF;
+  fill: none;
 }

@@ -1,19 +1,91 @@
 <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+    <div class="header-container">
+      
+      <nav class="header-navigation">
+        <a class="header-logo" href="index.html">
+        <svg class="icon" width="307" height="115">
+          <use href="img/sprite.svg#icon-logo" class="icon-logo"></use>
         </svg>
       </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+
+        <button class="burger-btn" type="button">
+          <svg class="icon" width="94" height="71">
+            <use href="img/sprite.svg#icon-burder-btn"></use>
+          </svg>
+        </button>
+      </nav>
+      
+      <ul class="header-contacts">
+        <li>
+          <a class="tel" href="tel:+86852346000">+86 852 346 000</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li>
+          <a class="reservations-nav" href="#reservations">Reservations</a>
         </li>
       </ul>
-    </nav>
+    </div>
   </div>
 </header>
+
+<div class="modal-menu-overlay">
+  <div class="modal-menu">
+    <div class="modal-menu-container">
+      <button class="modal-close-btn" type="button">
+        <svg class="modal-close-icon" width="28" height="28">
+          <use href="img/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <nav class="modal-navigation">
+        <ul class="modal-nav-list">
+          <li class="modal-nav-item">
+            <a class="modal-navigation-link" href="../index.html">Home</a>
+          </li>
+          <li class="modal-nav-item">
+            <a class="modal-navigation-link" href="#menu">Menu</a>
+          </li>
+          <li class="modal-nav-item">
+            <a class="modal-navigation-link" href="#about">About</a>
+          </li>
+          <li class="modal-nav-item">
+            <a class="modal-navigation-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="modal-social">
+        <h3>Contact</h3>
+
+        <ul>
+          <li>
+            <a class="tel" href="tel:+86852346000">+86 852 346 000</a>
+          </li>
+          <li>
+            <a class="mail" href="mail:info@foodzero.com">+86 852 346 000</a>
+          </li>
+        </ul>
+
+        <Address>
+          1959 Sepulveda Blvd.<br>
+          Culver City, CA, 90230
+        </Address>
+
+        <ul class="social">
+          <li class="icon-list">
+            <a href="https://www.instagram.com/foodzerousa/" target="_blank"></a>
+          </li>
+          <li class="icon-list">
+            <a href="https://www.instagram.com/foodzerousa/" target="_blank"></a>
+          </li>
+          <li class="icon-list">
+            <a href="https://www.instagram.com/foodzerousa/" target="_blank"></a>
+          </li>
+          <li class="icon-list">
+            <a href="https://www.instagram.com/foodzerousa/" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+.menu {
+    padding-top: 176px;
+    padding-bottom: 218px;
+    position: relative;
+}
+
+.main-img-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-title {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 111%;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.menu-text-main {
+    margin-bottom: 158px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.menu-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    row-gap: 108px;
+}
+
+.menu-item {
+    width: 792px;
+}
+
+.menu-price {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133%;
+    text-align: right;
+    border-bottom: 4px dashed #000;
+}
+
+.menu-name {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 124%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
