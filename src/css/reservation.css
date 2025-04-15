@@ -1,0 +1,26 @@
+.reservation {
+    background-color: #EBF0E4;
+    padding-top: 237px;
+    padding-bottom: 254px;
+}
+
+.reservation-title {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.reservation-text {
+    text-align: center;
+    color: #5E6600;
+    margin-bottom: 133px;
+}
+
+.btn-reservation {
+    background-color: #233000;
+    padding: 20px 95px;
+    color: #EBF0E4;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    font-family: "Rufina", sans-serif;
+}

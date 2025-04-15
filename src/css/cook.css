@@ -4,6 +4,10 @@
     height: 908px;
 }
 
+.cook-title {
+    margin-bottom: 18px;
+}
+
 .cook .container {
     display: flex;
     justify-content: space-between;
@@ -13,21 +17,9 @@
     right: 0;
     top: 0;
 }
-.cook-title {
-    font-family: "Rufina", sans-serif;
-    font-weight: 700;
-    font-size: 108px;
-    line-height: 111%;
-    color: #000;
-    margin-bottom: 18px;
-}
+
 .cook-text {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-    letter-spacing: 0.02em;
-    color: #4D4D4D;
+    color: #5E6600;
 }
 
 .main-img-cook {

@@ -7,23 +7,7 @@
     position: relative;
 }
 
-.hero-title {
-    font-family: "Rufina", sans-serif;
-    position: relative;
-    font-weight: 700;
-    font-size: 148px;
-    line-height: 103%;
-    color: #fff;
-    margin-bottom: 50px;
-    z-index: 1;
-}
-
 .hero-text {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-    letter-spacing: 0.02em;
     color: #EBF0E4;
 }
 
@@ -43,7 +27,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 133%;
-    color: #fff; 
+    color: #EBF0E4; 
     left: -256px;
     bottom: 250px;
     transform: rotate(90deg);
@@ -74,11 +58,9 @@
 }
 
 .image-box-title {
-    font-family: "Rufina", sans-serif;
-    font-weight: 700;
     font-size: 68px;
     line-height: 124%;
-    color: #fff;
+    color: #EBF0E4;
 }
 
 .image-box-1 {

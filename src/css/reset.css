@@ -8,8 +8,48 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+h1 {
+  font-family: "Rufina", sans-serif;
+    position: relative;
+    font-weight: 700;
+    font-size: 148px;
+    line-height: 103%;
+    color: #EBF0E4;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+h2 {
+  font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 111%;
+    color: #5E6600;
+}
+
+h3 {
+  font-family: "Rufina", sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 124%;
+  color: #5E6600;
+}
+
+h4 {
+  font-family: "Rufina", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133%;
+  color: #5E6600;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #5E6600;
 }
 
 ul {
@@ -34,7 +74,19 @@ img {
   height: auto;
 }
 
-.icon {
-  stroke: #FFFFFF;
-  fill: none;
+.icon-logo {
+  stroke: #EBF0E4;
+  fill: #EBF0E4;
+}
+
+.icon-buger {
+  stroke: #EBF0E4;
+}
+
+.icon-dark {
+  fill:#5E6600;
+}
+
+.icon-light {
+  fill: #EBF0E4;
 }
