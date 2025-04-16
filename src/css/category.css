@@ -17,3 +17,23 @@
     display: flex;
     gap: 60px;
 }
+
+.category-item {
+    position: relative;
+}
+
+.category-item-text {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133%;
+}
+
+.category-title-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 48px 48px 48px 40px;
+    min-width: 420px;
+    justify-content: space-between;
+}

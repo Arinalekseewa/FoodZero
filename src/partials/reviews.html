@@ -1,20 +1,42 @@
 <section class="reviews">
     <div class="container">
-        <h4 class="reviews-title">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies
+        <h4 class="reviews-title">“ Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Purus lorem id penatibus imperdiet. Turpis egestas<br> ultricies
         purus Lorem ipsum dolor sit amet.</h4>
 
-        <div>
-            <picture class="avatar-img">
-                <source srcset="../img/avatar-john@1x.webp 1x,
-                                ../img/avatar-john@2x.webp 2x" />
-                <img src="../img/avatar-john@1x.webp" alt="review-avatar" loading="lazy" width="170" height="170" />
-            </picture>
+        <div class="review-page">
+            <div class="review-bloger">
+                <picture class="avatar-img">
+                    <source srcset="../img/avatar-john@1x.webp 1x,
+                                                ../img/avatar-john@2x.webp 2x" />
+                    <img src="../img/avatar-john@1x.webp" alt="review-avatar" loading="lazy" width="170" height="170" />
+                </picture>
+                
+                <ul>
+                    <li>
+                        <h5>John Doe</h5>
+                    </li>
+                    <li>
+                        <p class="review-bloger-text">Bloger</p>
+                    </li>
+                </ul>
+            </div>
 
-            <h5>John Doe</h5>
-            <p>Bloger</p>
+            <div class="review-button">
+                <button type="button" class="review-btn-back">
+                    <svg class="icon-dark" width="48" height="28">
+                        <use href="img/sprite.svg#icon-arrow-left"></use>
+                    </svg>
+                </button>
+                
+                <p class="review-button-text">2/3</p>
+                
+                <button type="button" class="review-btn-next">
+                    <svg class="icon-dark" width="48" height="28">
+                        <use href="img/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
-
-        <button></button>
 
         <picture class="quotes">
             <source srcset="../img/quotes@1x.webp 1x,

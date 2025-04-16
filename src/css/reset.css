@@ -43,6 +43,14 @@ h4 {
   color: #5E6600;
 }
 
+h5 {
+  font-family: "Rufina", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #5E6600;
+}
+
 p {
   font-family: "Lato", sans-serif;
     font-weight: 400;

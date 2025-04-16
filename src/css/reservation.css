@@ -17,10 +17,36 @@
 
 .btn-reservation {
     background-color: #233000;
+    border-radius: 40px;
     padding: 20px 95px;
     color: #EBF0E4;
     font-weight: 700;
     font-size: 32px;
     line-height: 150%;
     font-family: "Rufina", sans-serif;
+    display: flex;
+    margin: 0 auto;
 }
+
+.reservartion-form {
+    display: flex;
+    margin-bottom: 133px;
+    gap: 48px;
+    justify-content: center;
+}
+
+.reservartion-form input {
+    width: 516px;
+    height: 96px;
+    background-color: transparent;
+    border: 1px solid #233000;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+

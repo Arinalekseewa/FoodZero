@@ -6,12 +6,20 @@
 .post-item {
     position: relative;
     background-color: #EBF0E4;
+    border-radius: 40px;
+}
+
+.post-item picture,
+.post-item img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 .post-img-text {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    border-radius: 40px;
+    top: 20px;
+    right: 20px;
     padding: 7px 53px;
     font-family: "Rufina", sans-serif;
     font-weight: 700;
@@ -64,6 +72,7 @@
 
 .btn-post {
     display: flex;
+    border-radius: 40px;
     align-items: center;
     gap: 10px;
     font-family: "Lato", sans-serif;

@@ -1,0 +1,55 @@
+.reviews {
+    padding-top: 118px;
+    padding-bottom: 145px;
+}
+
+.reviews .container {
+    padding: 0px 229px 0px 246px;
+    max-width: 1445px;
+    min-width: 1445px;
+    position: relative;
+}
+
+.reviews-title {
+    margin-bottom: 86px;
+}
+
+.review-bloger {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.review-bloger-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #5E6600;
+    margin-top: 6px;
+}
+
+.review-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.review-button-text {
+    font-family: "Rufina", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #5E6600;
+}
+
+.quotes {
+    position: absolute;
+    top: 0;
+    right: 255px;
+}

@@ -31,6 +31,7 @@ header {
 
 .reservations-nav {
   font-family: "Rufina",sans-serif;
+  border-radius: 40px;
   font-weight: 700;
   font-size: 32px;
   line-height: 150%;
