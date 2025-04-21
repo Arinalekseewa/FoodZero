@@ -83,12 +83,12 @@ img {
 }
 
 .icon-logo {
-  stroke: #EBF0E4;
-  fill: #EBF0E4;
+  stroke: rgba(235, 240, 228, 0.6);
+  fill: rgba(235, 240, 228, 0.6);
 }
 
 .icon-buger {
-  stroke: #EBF0E4;
+  stroke: rgba(235, 240, 228, 0.6);
 }
 
 .icon-dark {
@@ -96,5 +96,5 @@ img {
 }
 
 .icon-light {
-  fill: #EBF0E4;
+  fill: rgba(235, 240, 228, 0.6);
 }
